@@ -16,6 +16,10 @@
             {
                 Console.WriteLine("true");
             }
+            else if (nums.Count == 0)
+            {
+                Console.WriteLine(0);
+            }
             else
             {
                 Console.WriteLine(nums.Min());

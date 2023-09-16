@@ -3,29 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseStack", "ReverseStack\ReverseStack.csproj", "{EA028D16-B49D-40A2-82E8-CF347EDB023F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseStack", "ReverseStack\ReverseStack.csproj", "{EA028D16-B49D-40A2-82E8-CF347EDB023F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackSum", "StackSum\StackSum.csproj", "{5CD7912A-08E0-40FD-AA5E-844B8F7FC9FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackSum", "StackSum\StackSum.csproj", "{5CD7912A-08E0-40FD-AA5E-844B8F7FC9FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{4BEBA83A-A8B0-4D35-8210-83C3B303089F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{4BEBA83A-A8B0-4D35-8210-83C3B303089F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingBrackets", "MatchingBrackets\MatchingBrackets.csproj", "{B2A62B3E-F4C5-4500-8A6F-47C6AB6B99D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchingBrackets", "MatchingBrackets\MatchingBrackets.csproj", "{B2A62B3E-F4C5-4500-8A6F-47C6AB6B99D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.PrintEvenNumbers", "5.PrintEvenNumbers\5.PrintEvenNumbers.csproj", "{6A6EEA06-69E8-45D8-A6DE-AF811635EC9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.PrintEvenNumbers", "5.PrintEvenNumbers\5.PrintEvenNumbers.csproj", "{6A6EEA06-69E8-45D8-A6DE-AF811635EC9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Supermarket", "6.Supermarket\6.Supermarket.csproj", "{FD60C897-399B-4C8A-BF92-34DC027B2B4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.Supermarket", "6.Supermarket\6.Supermarket.csproj", "{FD60C897-399B-4C8A-BF92-34DC027B2B4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.HotPotato", "7.HotPotato\7.HotPotato.csproj", "{ED01C311-E2D1-4E8B-939C-5C18F268EC86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.HotPotato", "7.HotPotato\7.HotPotato.csproj", "{ED01C311-E2D1-4E8B-939C-5C18F268EC86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.TrafficJam", "8.TrafficJam\8.TrafficJam.csproj", "{1F936C44-7768-4A4B-8CE9-D20DB083873D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.TrafficJam", "8.TrafficJam\8.TrafficJam.csproj", "{1F936C44-7768-4A4B-8CE9-D20DB083873D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX1.BasicStackOperations", "EX1.BasicStackOperations\EX1.BasicStackOperations.csproj", "{CF6E5896-86E0-4B95-B008-F430092261AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX1.BasicStackOperations", "EX1.BasicStackOperations\EX1.BasicStackOperations.csproj", "{CF6E5896-86E0-4B95-B008-F430092261AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX2.BasicQueueOperations", "EX2.BasicQueueOperations\EX2.BasicQueueOperations.csproj", "{4823BA54-DA01-49C7-AC6C-9AD583C53499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX2.BasicQueueOperations", "EX2.BasicQueueOperations\EX2.BasicQueueOperations.csproj", "{4823BA54-DA01-49C7-AC6C-9AD583C53499}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX3.MaximumAndMinimumElement", "EX3.MaximumAndMinimumElement\EX3.MaximumAndMinimumElement.csproj", "{BBC93556-3293-4AF0-ABE3-8ACEA022A6B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX3.MaximumAndMinimumElement", "EX3.MaximumAndMinimumElement\EX3.MaximumAndMinimumElement.csproj", "{BBC93556-3293-4AF0-ABE3-8ACEA022A6B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX4.FastFood", "EX4.FashionBoutique\EX4.FastFood.csproj", "{2508E8C9-27CF-47E8-BC72-05F6B3686D0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX4.FastFood", "EX4.FastFood\EX4.FastFood.csproj", "{04475F22-8AE6-470D-A9CC-DF2D956F7A3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX5.FashionBoutique", "EX5.FashionBoutique\EX5.FashionBoutique.csproj", "{28A6E1B9-8CA3-46D7-9844-BA45F3C64904}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,10 +79,14 @@ Global
 		{BBC93556-3293-4AF0-ABE3-8ACEA022A6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBC93556-3293-4AF0-ABE3-8ACEA022A6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBC93556-3293-4AF0-ABE3-8ACEA022A6B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2508E8C9-27CF-47E8-BC72-05F6B3686D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2508E8C9-27CF-47E8-BC72-05F6B3686D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2508E8C9-27CF-47E8-BC72-05F6B3686D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2508E8C9-27CF-47E8-BC72-05F6B3686D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04475F22-8AE6-470D-A9CC-DF2D956F7A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04475F22-8AE6-470D-A9CC-DF2D956F7A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04475F22-8AE6-470D-A9CC-DF2D956F7A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04475F22-8AE6-470D-A9CC-DF2D956F7A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A6E1B9-8CA3-46D7-9844-BA45F3C64904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A6E1B9-8CA3-46D7-9844-BA45F3C64904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A6E1B9-8CA3-46D7-9844-BA45F3C64904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A6E1B9-8CA3-46D7-9844-BA45F3C64904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,7 +8,7 @@
             int rackCapacity = int.Parse(Console.ReadLine());
             int initialClotesCount = clothes.Count();
             int racksCount = 1;
-            int capacity = 16;
+            int capacity = rackCapacity;
             for (int i = 0; i < initialClotesCount; i++)
             {
                 if (clothes.Peek() <= capacity)

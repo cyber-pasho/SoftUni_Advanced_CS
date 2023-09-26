@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX4.FastFood", "EX4.FastFoo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX5.FashionBoutique", "EX5.FashionBoutique\EX5.FashionBoutique.csproj", "{28A6E1B9-8CA3-46D7-9844-BA45F3C64904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX6.SongsQueue", "EX6.SongsQueue\EX6.SongsQueue.csproj", "{9D00CE68-B3E8-4CEC-9648-E9B6BEA277CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX6.SongsQueue", "EX6.SongsQueue\EX6.SongsQueue.csproj", "{9D00CE68-B3E8-4CEC-9648-E9B6BEA277CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX7.TruckTour", "EX7.TruckTour\EX7.TruckTour.csproj", "{D1FBE2DB-B3B6-4ED4-A569-110AD5617BD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX7.TruckTour", "EX7.TruckTour\EX7.TruckTour.csproj", "{D1FBE2DB-B3B6-4ED4-A569-110AD5617BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX8.BalancedParentheses", "EX8.BalancedParentheses\EX8.BalancedParentheses.csproj", "{26B38CC4-7285-4B07-ABA5-5CCA54447C1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{D1FBE2DB-B3B6-4ED4-A569-110AD5617BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1FBE2DB-B3B6-4ED4-A569-110AD5617BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1FBE2DB-B3B6-4ED4-A569-110AD5617BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B38CC4-7285-4B07-ABA5-5CCA54447C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B38CC4-7285-4B07-ABA5-5CCA54447C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B38CC4-7285-4B07-ABA5-5CCA54447C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B38CC4-7285-4B07-ABA5-5CCA54447C1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

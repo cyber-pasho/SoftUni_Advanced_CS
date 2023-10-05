@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1.SumMatrixElements", "L1.SumMatrixElements\L1.SumMatrixElements.csproj", "{65C382F3-6144-4C51-8BC3-A89FD1C9F444}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2.SumMatrixColumns", "L2.SumMatrixColumns\L2.SumMatrixColumns.csproj", "{7DC5FDFD-FCB0-473B-A83A-D621ECD5CCFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{65C382F3-6144-4C51-8BC3-A89FD1C9F444}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65C382F3-6144-4C51-8BC3-A89FD1C9F444}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65C382F3-6144-4C51-8BC3-A89FD1C9F444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DC5FDFD-FCB0-473B-A83A-D621ECD5CCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC5FDFD-FCB0-473B-A83A-D621ECD5CCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC5FDFD-FCB0-473B-A83A-D621ECD5CCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC5FDFD-FCB0-473B-A83A-D621ECD5CCFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

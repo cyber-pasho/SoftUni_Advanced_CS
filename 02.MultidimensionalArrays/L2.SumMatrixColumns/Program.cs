@@ -1,4 +1,4 @@
-﻿namespace L1.SumMatrixElements
+﻿namespace L2.SumMatrixColumns
 {
     internal class Program
     {
@@ -14,7 +14,7 @@
             for (int row = 0; row < rowsCount; row++)
             {
                 var input2 = Console.ReadLine()
-                    .Split(", ")
+                    .Split(" ")
                     .Select(int.Parse)
                     .ToArray();
                 for (int col = 0; col < colsCount; col++)
@@ -22,14 +22,16 @@
                     matrix[row, col] = input2[col];
                 }
             }
-            Console.WriteLine(input1[0]);
-            Console.WriteLine(input1[1]);
-            int sum = 0;
-            foreach (var item in matrix)
+            for (int col1 = 0; col1 < colsCount; col1++)
             {
-                sum += item;
+                int sum = 0;
+                for (int row1 = 0; row1 < rowsCount; row1++)
+                {
+                    sum += matrix[row1, col1];
+                }
+                Console.WriteLine(sum);
             }
-            Console.WriteLine(sum);
         }
+
     }
 }

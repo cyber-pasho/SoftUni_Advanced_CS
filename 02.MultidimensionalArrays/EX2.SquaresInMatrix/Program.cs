@@ -5,14 +5,14 @@
         static void Main()
         {
             var matrixDimensions = Console.ReadLine()
-                .Split(" ")
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
             string[,] matrix = new string[matrixDimensions[0], matrixDimensions[1]];
             for (int i = 0; i < matrixDimensions[0]; i++)
             {
                 var input = Console.ReadLine()
-                    .Split(" ")
+                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                     .ToArray();
                 for (int y = 0; y < input.Length; y++)
                 {

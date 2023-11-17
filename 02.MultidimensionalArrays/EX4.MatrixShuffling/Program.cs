@@ -30,6 +30,7 @@
                     if (command.Length != 5)
                     {
                         Console.WriteLine("Invalid input!");
+                        continue;
                     }
                     string commandValid = command[0];
                     int row1 = int.Parse(command[1]);
@@ -37,15 +38,16 @@
                     int row2 = int.Parse(command[3]);
                     int col2 = int.Parse(command[4]);
 
-                    if  (row1 >= 0 && row1 <= matrixDimensions[0] 
-                     && row2 >= 0 && row2 <= matrixDimensions[0]
-                     && col1 >= 0 && col1 <= matrixDimensions[1]
-                     && col2 >= 0 && col2 <= matrixDimensions[1])
+                    if (row1 >= 0 && row1 < matrixDimensions[0] 
+                     && row2 >= 0 && row2 < matrixDimensions[0]
+                     && col1 >= 0 && col1 < matrixDimensions[1]
+                     && col2 >= 0 && col2 < matrixDimensions[1])
 
                     {
-                        string swapEntry = matrix[row2, col2];
-                        matrix[row2, col2] = matrix[row1, col1];
-                        matrix[row1, col1] = swapEntry;
+                        string swapEntry1 = matrix[row1, col1];
+                        string swapEntry2 = matrix[row2, col2];
+                        matrix[row2, col2] = swapEntry1;
+                        matrix[row1, col1] = swapEntry2;
                         //print--->
                         for (int i = 0; i < matrix.GetLength(0); i++)
                         {

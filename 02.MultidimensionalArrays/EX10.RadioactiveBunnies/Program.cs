@@ -7,17 +7,17 @@ int rowSize = size[0];
 int colSize = size[1];
 string[,] lair = new string[rowSize, colSize];
 bool gameOver = false;
+bool gameWin = false;
 int playerRow = 0;
 int playerCol = 0;
 //input<-
 //matrix initialize->
 for (int row = 0; row < rowSize; row++)
 {
-    var matrixRow = Console.ReadLine()
-        .Split("", StringSplitOptions.RemoveEmptyEntries);
+    string matrixRow = Console.ReadLine();
     for (int col = 0; col < colSize; col++)
     {
-        lair[row, col] = matrixRow[col];
+        lair[row, col] = matrixRow[col].ToString();
         if (lair[row, col] == "P")
         {
             playerRow = row;
@@ -27,48 +27,119 @@ for (int row = 0; row < rowSize; row++)
 }
 //matrix initialize<-
 //movement input->
-var movement = Console.ReadLine()
-    .Split("", StringSplitOptions.RemoveEmptyEntries);
+var movement = Console.ReadLine();
 //movement input<-
 //task//
-while (!gameOver)
+while (gameOver==false && gameWin==false)
 {
-    for (int round = 0; round > 0; round++)
+    for (int round = 0; round < int.MaxValue ; round++)
     {
-        if (movement[round] == "R")
+        if (round > movement.Length - 1)
         {
-            if (playerCol == lair.GetLength(1) - 1)
-            {
-                gameOver = true;
-                Console.WriteLine($"won: {playerRow} {playerCol}");
-                break;
-            }
-            Infection(lair); // ДА ДОБАВЯ УСЛОВИЕ АКО СЛЕД ИНФЕКШЪН ПОПАДНА НА Player ДА СВЪРШВА ИГРАТА!
-            playerCol++;
+            Infection(lair);
             if (lair[playerRow, playerCol] == "B")
             {
                 gameOver = true;
-                Console.WriteLine($"dead: {playerRow} {playerCol}");
+                break;
+            }
+        }
+        else if (movement[round] + "" == "R")
+        {
+            if (playerCol == lair.GetLength(1) - 1)
+            {
+                gameWin = true;
+                Infection(lair);
+                lair[playerRow, playerCol] = ".";
+                break;
+            }
+            playerCol++;
+            Infection(lair);
+            if (lair[playerRow, playerCol] == "B")
+            {
+                gameOver = true;
                 break;
             }
             lair[playerRow, playerCol] = "P";
+            lair[playerRow, playerCol-1] = ".";
         }
-        else if (movement[round] == "L")
+        else if (movement[round] + "" == "L")
         {
-
+            if (playerCol == 0)
+            {
+                gameWin = true;
+                Infection(lair);
+                lair[playerRow, playerCol] = ".";
+                break;
+            }
+            playerCol--;
+            Infection(lair);
+            if (lair[playerRow, playerCol] == "B")
+            {
+                gameOver = true;
+                break;
+            }
+            lair[playerRow, playerCol] = "P";
+            lair[playerRow, playerCol + 1] = ".";
         }
-        else if (movement[round] == "U")
+        else if (movement[round] + "" == "U")
         {
-
+            if (playerRow == 0)
+            {
+                gameWin = true;
+                Infection(lair);
+                lair[playerRow, playerCol] = ".";
+                break;
+            }
+            playerRow--;
+            Infection(lair);
+            if (lair[playerRow, playerCol] == "B")
+            {
+                gameOver = true;
+                break;
+            }
+            lair[playerRow, playerCol] = "P";
+            lair[playerRow+1, playerCol] = ".";
         }
-        else if (movement[round] == "D")
+        else if (movement[round] + "" == "D")
         {
-
+            if (playerRow == lair.GetLength(0)-1)
+            {
+                gameWin = true;
+                Infection(lair);
+                lair[playerRow, playerCol] = ".";
+                break;
+            }
+            playerRow++;
+            Infection(lair);
+            if (lair[playerRow, playerCol] == "B")
+            {
+                gameOver = true;
+                break;
+            }
+            lair[playerRow, playerCol] = "P";
+            lair[playerRow - 1, playerCol] = ".";
         }
-        else if (round > movement.Length - 1)
+        else
         {
-
+            Console.WriteLine("Wrong input");
+            return;
         }
+    }
+    for (int row = 0; row < lair.GetLength(0); row++)
+    {
+        for (int col = 0; col < lair.GetLength(1); col++)
+        {
+            Console.Write(lair[row,col]);
+        }
+        Console.WriteLine();
+    }
+    if (gameOver)
+    {
+        Console.WriteLine($"dead: {playerRow} {playerCol}");
+    }
+    else if (gameWin)
+    {
+        Console.WriteLine($"won: {playerRow} {playerCol}");
     }
 }
 static void Infection(string[,] array)

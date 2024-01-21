@@ -43,7 +43,7 @@ while (!gameOver)
                 Console.WriteLine($"won: {playerRow} {playerCol}");
                 break;
             }
-            Infection(lair);
+            Infection(lair); // ДА ДОБАВЯ УСЛОВИЕ АКО СЛЕД ИНФЕКШЪН ПОПАДНА НА Player ДА СВЪРШВА ИГРАТА!
             playerCol++;
             if (lair[playerRow, playerCol] == "B")
             {

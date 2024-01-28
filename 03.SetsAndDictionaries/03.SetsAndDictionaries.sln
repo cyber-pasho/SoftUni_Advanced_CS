@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L01.CountSameValuesInArray", "L01.CountSameValuesInArray\L01.CountSameValuesInArray.csproj", "{B70FD8C4-8A8C-4426-89FC-66548F262160}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L01.CountSameValuesInArray", "L01.CountSameValuesInArray\L01.CountSameValuesInArray.csproj", "{B70FD8C4-8A8C-4426-89FC-66548F262160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L02.AvarageStudentGrades", "L02.AvarageStudentGrades\L02.AvarageStudentGrades.csproj", "{424A4C45-5370-4D7C-909A-CBB4029430AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L02.AvarageStudentGrades", "L02.AvarageStudentGrades\L02.AvarageStudentGrades.csproj", "{424A4C45-5370-4D7C-909A-CBB4029430AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestNumbers", "LargestNumbers\LargestNumbers.csproj", "{D61ECA36-ACDB-4599-93C0-9394626948D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{424A4C45-5370-4D7C-909A-CBB4029430AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{424A4C45-5370-4D7C-909A-CBB4029430AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{424A4C45-5370-4D7C-909A-CBB4029430AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61ECA36-ACDB-4599-93C0-9394626948D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61ECA36-ACDB-4599-93C0-9394626948D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61ECA36-ACDB-4599-93C0-9394626948D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61ECA36-ACDB-4599-93C0-9394626948D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

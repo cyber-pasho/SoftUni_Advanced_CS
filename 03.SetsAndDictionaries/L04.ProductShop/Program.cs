@@ -6,8 +6,32 @@ while ((input = Console.ReadLine()) != "Revision")
         .Split(", ", StringSplitOptions.RemoveEmptyEntries);
     string shopName = data[0];
     string productName = data[1];
-    double productPrice = int.Parse(data[2]);
-
+    double productPrice = double.Parse(data[2]);
+    if (!shops.Any(s => s.Name == shopName))
+    {
+        shops.Add(new Shop(shopName, new Dictionary<string, double> { { productName, productPrice } }));
+    }
+    else if (shops.Any(s => s.Name == shopName) && !shops.Any(s => s.Product.ContainsKey(productName)))
+    {
+        foreach (var shop in shops)
+        {
+            if (shop.Name == shopName)
+            {
+                shop.Product.Add(productName, productPrice);
+            }
+        }
+    }
+}
+List<Shop> orderedShops = shops
+        .OrderBy(s => s.Name)
+        .ToList();
+foreach (var shop in orderedShops)
+{
+    Console.WriteLine($"{shop.Name}->");
+    foreach (var product in shop.Product)
+    {
+        Console.WriteLine($"Product: {product.Key}, Price: {product.Value}");
+    }
 }
 public class Shop
 {

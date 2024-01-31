@@ -1,6 +1,6 @@
 ﻿using System.Collections.Immutable;
 
-namespace LargestNumbers
+namespace L03.LargestNumbers
 {
     internal class Program
     {

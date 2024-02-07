@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L07.ParkingLot", "L07.Parki
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L08.SoftUniParty", "L08.SoftUniParty\L08.SoftUniParty.csproj", "{9048D73A-4708-4D2E-BEDF-6DCC9F710C6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX01.UniqueUsernames", "EX01.UniqueUsernames\EX01.UniqueUsernames.csproj", "{C1C15518-F4CA-4F90-ACC0-D7BA0D6A06BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9048D73A-4708-4D2E-BEDF-6DCC9F710C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9048D73A-4708-4D2E-BEDF-6DCC9F710C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9048D73A-4708-4D2E-BEDF-6DCC9F710C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C15518-F4CA-4F90-ACC0-D7BA0D6A06BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C15518-F4CA-4F90-ACC0-D7BA0D6A06BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C15518-F4CA-4F90-ACC0-D7BA0D6A06BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C15518-F4CA-4F90-ACC0-D7BA0D6A06BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

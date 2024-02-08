@@ -13,21 +13,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L05.CitiesContinentsCountri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L06.UniqueNames", "L06.UniqueNames\L06.UniqueNames.csproj", "{5B088138-B570-4C3D-9D4B-2EA5907FBE42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L07.ParkingLot", "L07.ParkingLot\L07.ParkingLot.csproj", "{AF2CD4D7-6B0E-4993-9251-D151431AB067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L07.ParkingLot", "L07.ParkingLot\L07.ParkingLot.csproj", "{AF2CD4D7-6B0E-4993-9251-D151431AB067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L08.SoftUniParty", "L08.SoftUniParty\L08.SoftUniParty.csproj", "{9048D73A-4708-4D2E-BEDF-6DCC9F710C6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L08.SoftUniParty", "L08.SoftUniParty\L08.SoftUniParty.csproj", "{9048D73A-4708-4D2E-BEDF-6DCC9F710C6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX01.UniqueUsernames", "EX01.UniqueUsernames\EX01.UniqueUsernames.csproj", "{C1C15518-F4CA-4F90-ACC0-D7BA0D6A06BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX01.UniqueUsernames", "EX01.UniqueUsernames\EX01.UniqueUsernames.csproj", "{C1C15518-F4CA-4F90-ACC0-D7BA0D6A06BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX02.SetsOfElements", "EX02.SetsOfElements\EX02.SetsOfElements.csproj", "{3055E51C-0FF1-4ACF-B4C9-756769F4B0C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX02.SetsOfElements", "EX02.SetsOfElements\EX02.SetsOfElements.csproj", "{3055E51C-0FF1-4ACF-B4C9-756769F4B0C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX03.PeriodicTable", "EX03.PeriodicTable\EX03.PeriodicTable.csproj", "{74EC7376-DFEF-4636-ACF0-0453DD1E9C95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX03.PeriodicTable", "EX03.PeriodicTable\EX03.PeriodicTable.csproj", "{74EC7376-DFEF-4636-ACF0-0453DD1E9C95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX04.EvenTimes", "EX04.EvenTimes\EX04.EvenTimes.csproj", "{0CDC0AD9-042E-4A29-BA2E-0E7023534AED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX04.EvenTimes", "EX04.EvenTimes\EX04.EvenTimes.csproj", "{0CDC0AD9-042E-4A29-BA2E-0E7023534AED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX05.CountSymbols", "EX05.CountSymbols\EX05.CountSymbols.csproj", "{7BFCF433-3BBD-4FC8-BB46-1CA1123B2764}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX05.CountSymbols", "EX05.CountSymbols\EX05.CountSymbols.csproj", "{7BFCF433-3BBD-4FC8-BB46-1CA1123B2764}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX06.Wardrobe", "EX06.Wardrobe\EX06.Wardrobe.csproj", "{CE25FF01-79D5-4B87-8ED2-596B45BD4AE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX06.Wardrobe", "EX06.Wardrobe\EX06.Wardrobe.csproj", "{CE25FF01-79D5-4B87-8ED2-596B45BD4AE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX07.TheV-Logger", "EX07.TheV-Logger\EX07.TheV-Logger.csproj", "{6EDF3F21-DE89-46C1-BAB7-6ECC53405BB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{CE25FF01-79D5-4B87-8ED2-596B45BD4AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE25FF01-79D5-4B87-8ED2-596B45BD4AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE25FF01-79D5-4B87-8ED2-596B45BD4AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EDF3F21-DE89-46C1-BAB7-6ECC53405BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDF3F21-DE89-46C1-BAB7-6ECC53405BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDF3F21-DE89-46C1-BAB7-6ECC53405BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDF3F21-DE89-46C1-BAB7-6ECC53405BB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

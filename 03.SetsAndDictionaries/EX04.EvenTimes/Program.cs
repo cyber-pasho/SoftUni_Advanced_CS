@@ -23,5 +23,4 @@ namespace EX04.EvenTimes
             var answer = numbers.FirstOrDefault(x=>x.Value%2==0);
             Console.WriteLine(answer.Key);
         }
-    }
-}
+   1

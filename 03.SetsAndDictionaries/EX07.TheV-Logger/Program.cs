@@ -1,4 +1,6 @@
-﻿namespace EX07.TheV_Logger
+﻿using static EX07.TheV_Logger.Program;
+
+namespace EX07.TheV_Logger
 {
     internal class Program
     {
@@ -23,18 +25,35 @@
                         }
                         continue;
                     case "followed":
-                        if (vloggers.ContainsKey(recipient) && vloggers.ContainsKey(name))
+                        if (vloggers.TryGetValue(recipient, out Vlogger followed) && vloggers.TryGetValue(name, out Vlogger follower) && vloggers.TryGetValue(name, out Vlogger him) && name != recipient)
                         {
-                            foreach (var vlogger in vloggers)
-                            {
-                                if (vlogger.Key == recipient)
-                                {
-                                    vlogger.Value.Followers.Add(name);
-                                }
-                            }
+                            followed.Followers.Add(name);
+                            follower.Following.Add(recipient);
                         }
                         continue;
                 }
+            }
+            var sortedVloggers = vloggers.Values
+                .OrderByDescending(v => v.Followers.Count)
+                .ThenBy(v => v.Following.Count)
+                .ToList();
+            Console.WriteLine($"The V-Logger has a total of {sortedVloggers.Count} vloggers in its logs.");
+            int counter = 1;
+            foreach (var vlogger in sortedVloggers)
+            {
+                Console.WriteLine($"{counter}. {vlogger.Name} : {vlogger.Followers.Count} followers, {vlogger.Following.Count} following");
+                if (counter == 1)
+                {
+                    var sortedFollowers = vlogger.Followers
+                        .ToList()
+                        .OrderBy(v => v)
+                        .ToList();
+                    foreach (var item in sortedFollowers)
+                    {
+                        Console.WriteLine($"*  {item}");
+                    }
+                }
+                counter++;
             }
         }
         public class Vlogger

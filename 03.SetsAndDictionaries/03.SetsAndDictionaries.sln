@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX06.Wardrobe", "EX06.Wardr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX07.TheV-Logger", "EX07.TheV-Logger\EX07.TheV-Logger.csproj", "{6EDF3F21-DE89-46C1-BAB7-6ECC53405BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX08.Ranking", "EX08.Ranking\EX08.Ranking.csproj", "{05CBBBEA-35B1-453F-9E65-B39B58F12135}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX08.Ranking", "EX08.Ranking\EX08.Ranking.csproj", "{05CBBBEA-35B1-453F-9E65-B39B58F12135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX09.SoftUniExamResults", "EX09.SoftUniExamResults\EX09.SoftUniExamResults.csproj", "{5543A8D8-E542-454A-918B-F0D450BCF35C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{05CBBBEA-35B1-453F-9E65-B39B58F12135}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05CBBBEA-35B1-453F-9E65-B39B58F12135}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05CBBBEA-35B1-453F-9E65-B39B58F12135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5543A8D8-E542-454A-918B-F0D450BCF35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5543A8D8-E542-454A-918B-F0D450BCF35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5543A8D8-E542-454A-918B-F0D450BCF35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5543A8D8-E542-454A-918B-F0D450BCF35C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

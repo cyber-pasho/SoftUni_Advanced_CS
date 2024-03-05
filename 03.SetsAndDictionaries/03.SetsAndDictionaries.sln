@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX07.TheV-Logger", "EX07.Th
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX08.Ranking", "EX08.Ranking\EX08.Ranking.csproj", "{05CBBBEA-35B1-453F-9E65-B39B58F12135}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX09.SoftUniExamResults", "EX09.SoftUniExamResults\EX09.SoftUniExamResults.csproj", "{5543A8D8-E542-454A-918B-F0D450BCF35C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX09.SoftUniExamResults", "EX09.SoftUniExamResults\EX09.SoftUniExamResults.csproj", "{5543A8D8-E542-454A-918B-F0D450BCF35C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX10.ForceBook", "EX10.ForceBook\EX10.ForceBook.csproj", "{82B5B8D8-1800-46B5-8C04-B1F02DDC5E6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{5543A8D8-E542-454A-918B-F0D450BCF35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5543A8D8-E542-454A-918B-F0D450BCF35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5543A8D8-E542-454A-918B-F0D450BCF35C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B5B8D8-1800-46B5-8C04-B1F02DDC5E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B5B8D8-1800-46B5-8C04-B1F02DDC5E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B5B8D8-1800-46B5-8C04-B1F02DDC5E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B5B8D8-1800-46B5-8C04-B1F02DDC5E6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

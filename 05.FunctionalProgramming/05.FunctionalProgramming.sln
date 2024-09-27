@@ -13,13 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L04-AddVAT", "L04-AddVAT\L0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L05-FilterByAge", "L05-FilterByAge\L05-FilterByAge.csproj", "{BA69A917-4CF6-4B3F-A054-59C73B4A029B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX01-ActionPoint", "EX01-ActionPoint\EX01-ActionPoint.csproj", "{22D96122-876A-4680-B8CA-C54B4EFBBB52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX01-ActionPoint", "EX01-ActionPoint\EX01-ActionPoint.csproj", "{22D96122-876A-4680-B8CA-C54B4EFBBB52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX02-2.KnightsofHonor", "EX02-2.KnightsofHonor\EX02-2.KnightsofHonor.csproj", "{DCF0F6A1-6657-4B8E-B4AF-ADA2C96E9992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX02-2.KnightsofHonor", "EX02-2.KnightsofHonor\EX02-2.KnightsofHonor.csproj", "{DCF0F6A1-6657-4B8E-B4AF-ADA2C96E9992}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX03-CustomMinFunction", "EX03-CustomMinFunction\EX03-CustomMinFunction.csproj", "{744049F1-9A31-4934-94A1-96038EC127AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX03-CustomMinFunction", "EX03-CustomMinFunction\EX03-CustomMinFunction.csproj", "{744049F1-9A31-4934-94A1-96038EC127AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX04-FindEvensorOdds", "EX04-FindEvensorOdds\EX04-FindEvensorOdds.csproj", "{29D6B07C-5B72-48A0-86D5-4A7ECF9220D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX04-FindEvensorOdds", "EX04-FindEvensorOdds\EX04-FindEvensorOdds.csproj", "{29D6B07C-5B72-48A0-86D5-4A7ECF9220D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX05-AppliedArithmetics", "EX05-AppliedArithmetics\EX05-AppliedArithmetics.csproj", "{0363329C-3E72-42FD-9930-E4C6CF4E047B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX06-ReverseandExclude", "EX06-ReverseandExclude\EX06-ReverseandExclude.csproj", "{34F62F49-6D45-45C3-AE53-D5177BF0E0BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{29D6B07C-5B72-48A0-86D5-4A7ECF9220D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29D6B07C-5B72-48A0-86D5-4A7ECF9220D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29D6B07C-5B72-48A0-86D5-4A7ECF9220D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0363329C-3E72-42FD-9930-E4C6CF4E047B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0363329C-3E72-42FD-9930-E4C6CF4E047B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0363329C-3E72-42FD-9930-E4C6CF4E047B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0363329C-3E72-42FD-9930-E4C6CF4E047B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F62F49-6D45-45C3-AE53-D5177BF0E0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F62F49-6D45-45C3-AE53-D5177BF0E0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F62F49-6D45-45C3-AE53-D5177BF0E0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F62F49-6D45-45C3-AE53-D5177BF0E0BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

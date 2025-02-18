@@ -42,14 +42,57 @@ namespace CarManufacturer
 
 		private double fuelConsumption;
 
-		public double FuelConsumption
+        public double FuelConsumption
 		{
 			get { return fuelConsumption; }
 			set { fuelConsumption = value; }
 		}
 
+		private Engine engine;
+		public Engine Engine
+		{
+			get { return engine; }
+			set { engine = value; }
+		}
 
-		public void Drive(int drive)
+		private Tire[] tires;
+		public Tire[] Tires
+		{
+			get { return tires; }
+			set { tires = value; }
+		}
+
+        public Car()
+        {
+			Make = "VW";
+            Model = "Golf";
+            Year = 2025;
+            FuelQuantity = 200;
+            FuelConsumption = 10;
+        }
+        public Car(string make, string model, int year)
+			: this()
+        {
+            this.Make = make;
+            this.Model = model;
+            this.Year = year;
+        }
+
+        public Car(string make, string model, int year, double fuelQuantity, double fuelConsumption)
+			: this(make, model, year)
+        {
+			this.FuelQuantity = fuelQuantity;
+			this.FuelConsumption = fuelConsumption;
+        }
+
+        public Car(string make, string model, int year, double fuelQuantity, double fuelConsumption, Engine engine, Tire[] tires)
+            : this(make, model, year, fuelConsumption, fuelQuantity)
+        {
+            this.Engine = engine;
+            this.Tires = tires;
+        }
+
+        public void Drive(int drive)
 		{
 			double remainingFuel = FuelQuantity - (fuelConsumption * drive);
 			if (remainingFuel > 0)
@@ -65,9 +108,9 @@ namespace CarManufacturer
 		public void WhoAmI()
 		{
 				Console.WriteLine($"Make: {Make}");
-				Console.WriteLine($"Make: {Model}");
-				Console.WriteLine($"Make: {Year}");
-				Console.WriteLine($"Make: {FuelQuantity:F2}");
+				Console.WriteLine($"Model: {Model}");
+				Console.WriteLine($"Year: {Year}");
+				Console.WriteLine($"Fuel Quantity: {FuelQuantity:F2}");
         }
 	}
 }

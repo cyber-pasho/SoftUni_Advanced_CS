@@ -86,7 +86,7 @@ namespace CarManufacturer
         }
 
         public Car(string make, string model, int year, double fuelQuantity, double fuelConsumption, Engine engine, Tire[] tires)
-            : this(make, model, year, fuelConsumption, fuelQuantity)
+            : this(make, model, year, fuelQuantity, fuelConsumption)
         {
             this.Engine = engine;
             this.Tires = tires;
@@ -94,23 +94,16 @@ namespace CarManufacturer
 
         public void Drive(int drive)
 		{
-			double remainingFuel = FuelQuantity - (fuelConsumption * drive);
-			if (remainingFuel > 0)
-			{
-				fuelQuantity = remainingFuel;
-			}
-			else
-			{
-				Console.WriteLine("Not enough fuel to perform this trip!");
-            }
-
+			double remainingFuel = FuelQuantity - ((fuelConsumption/100) * drive);
+			fuelQuantity = remainingFuel;
 		}
 		public void WhoAmI()
 		{
-				Console.WriteLine($"Make: {Make}");
-				Console.WriteLine($"Model: {Model}");
-				Console.WriteLine($"Year: {Year}");
-				Console.WriteLine($"Fuel Quantity: {FuelQuantity:F2}");
+			Console.WriteLine($"Make: {Make}");
+			Console.WriteLine($"Model: {Model}");
+			Console.WriteLine($"Year: {Year}");
+			Console.WriteLine($"HorsePowers: {Engine.HorsePower}");
+			Console.WriteLine($"FuelQuantity: {FuelQuantity}");
         }
 	}
 }

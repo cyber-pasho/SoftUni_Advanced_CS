@@ -21,8 +21,12 @@ namespace DefiningClasses
                 Person person = new Person(name, age);
                 family.AddPerson(person);
             }
-            Person oldest = family.GetOldestMember();
-            Console.WriteLine($"{oldest.Name} {oldest.Age}");
+
+            var sortedFamily = family.SortedFamily();
+            foreach (var person in sortedFamily)
+            {
+                Console.WriteLine($"{person.Name} - {person.Age}");
+            }
         }
     }
 }

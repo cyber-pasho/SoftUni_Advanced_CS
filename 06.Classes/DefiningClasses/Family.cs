@@ -21,9 +21,14 @@ namespace DefiningClasses
             People.Add(person);
         }
 
-        public Person GetOldestMember()
+        public List<Person> SortedFamily()
         {
-            return People.OrderByDescending(p => p.Age).FirstOrDefault();
+            var sortedFamily = People
+                .Where(x => x.Age > 30)
+                .OrderBy(x => x.Name)
+                .ToList();
+
+            return sortedFamily;
         }
     }
 }

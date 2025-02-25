@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManufacturer", "CarManuf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiningClasses", "DefiningClasses\DefiningClasses.csproj", "{04889053-1D31-48D9-9522-F0F1A33278EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX05.DateModifier", "EX05.DateModifier\EX05.DateModifier.csproj", "{8D71FB1F-A4E0-448A-B949-1EC8125477CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{04889053-1D31-48D9-9522-F0F1A33278EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04889053-1D31-48D9-9522-F0F1A33278EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04889053-1D31-48D9-9522-F0F1A33278EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D71FB1F-A4E0-448A-B949-1EC8125477CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D71FB1F-A4E0-448A-B949-1EC8125477CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D71FB1F-A4E0-448A-B949-1EC8125477CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D71FB1F-A4E0-448A-B949-1EC8125477CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
